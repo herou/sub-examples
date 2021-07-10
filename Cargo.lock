@@ -3538,6 +3538,7 @@ dependencies = [
  "pallet-transaction-payment-rpc-runtime-api",
  "parity-scale-codec",
  "serde",
+ "simple-map",
  "sp-api",
  "sp-block-builder",
  "sp-consensus-aura",
@@ -6191,6 +6192,19 @@ dependencies = [
  "num-complex",
  "num-traits",
  "paste 0.1.18",
+]
+
+[[package]]
+name = "simple-map"
+version = "3.0.0"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
